@@ -4,6 +4,6 @@ function getElementWidth(content, padding, border) {
 }
 
 
-console.log(getElementWidth(50, 8, 4));
-console.log(getElementWidth(60, 12, 8.5));
-console.log(getElementWidth(200, 0, 0));
+console.log(getElementWidth(Number.parseFloat("50px"), Number.parseFloat("8px"), Number.parseFloat("4px")));
+console.log(getElementWidth(Number.parseFloat("60px"), Number.parseFloat("12px"), Number.parseFloat("8.5px")));
+console.log(getElementWidth(Number.parseFloat("200px"), Number.parseFloat("0px"), Number.parseFloat("0px")));
